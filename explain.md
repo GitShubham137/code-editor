@@ -29,3 +29,10 @@ folder & types file -> inside actions create index.js file
 At root level create next-auth.d.ts
 _______________________________________________________________________________________________________________________________
 Create (auth) inside app -> inside create auth folder -> create sign-in folder and layout.jsx file
+
+
+
+__________________________________________________________________________________________________________________________
+On landing page when user clicks o the get started button he is directed to his dashboard.
+The main file responsible to render this dashboard is inside the app folder.
+The file which takes out user data from the database is /modules/dashboard/actions/index.ts
